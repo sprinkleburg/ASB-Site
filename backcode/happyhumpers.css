@@ -1,0 +1,4 @@
+span.task[hh-bulbasaur]:before { content: url(../icons/001.png) ; }
+span.task[hh-ivysaur]:before { content: url(../icons/002.png) ; }
+span.task[hh-venusaur]:before { content: url(../icons/003.png) ; }
+span.task[hh-venusaur-mega]:before {content: url(../icons/003-mega.png) ; }

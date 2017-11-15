@@ -1,0 +1,59 @@
+<html>
+<head>
+</head>
+<body alink="black" bgcolor="#ffffdd" link="black" text="#56458e" vlink="black">
+
+<style type="text/css">
+.tooltip {
+	color: #7060a3;
+	outline: none;
+	cursor: help;
+	text-decoration: none;
+	position: relative;
+}
+.tooltip span {
+	margin-left: -999em;
+	position: absolute;
+}
+.tooltip:hover span {
+	border-radius: 5px 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	font-family: Calibri, Tahoma, Geneva, sans-serif;
+	position: absolute;
+	left: 1em;
+	top: 2em;
+	z-index: 99;
+	margin-left: 0;
+	width: 250px;
+background: #ffe2a8;
+color: #7060a3;
+}
+.tooltip:hover span img {
+	border: 0;
+	margin: -10px 0 0 -55px;
+	float: left;
+	position: absolute;
+}
+.tooltip:hover span em {
+	font-family: Candara, Tahoma, Geneva, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	display: block;
+	padding: 0.2em 0 0.6em 0;
+}
+
+span.task:before { content: attr(data-task-owner)"'s task - " ; }
+span.task[data-psychic]:before { content: "[Psychic]: Psychic-type Pok&#233;mon are much more proficient with telekinesis than other Pok@#233;mon. Thus, they can use Psychic to move and manipulate targets with ease. Psychic type Pok@#233;mon are resistant to flinching and have higher levels of focus and concentration than other Pok@#233;mon. They are resistant to attacks which induce confusion or other mental effects. They have limited ability to read minds and are thus more adept at dodging attacks than might be expected and able to mitigate the effects of accuracy reducing attacks. This telepathy does not work on Dark typed Pok@#233;mon." ; }
+
+</style>
+	<p> This is a basic Tooltip: <a class="tooltip" href="#">Psychic SC goes here
+	 <span class="task" data-psychic="1"><font color="#5f31f3"><strong> WORDS</strong><font></span>
+	</a></p>
+
+<strong><font color="#5f31f3">WORDS</font><strong>
+</body>
+</html>
